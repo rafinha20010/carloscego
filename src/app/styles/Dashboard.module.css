@@ -1,0 +1,128 @@
+.container {
+    background-color: #f4f6f8;
+    min-height: 100vh;
+    padding: 20px;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+  }
+  
+  .header {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header h1 {
+    color: #2563eb;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .updateTime {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .panel {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .panel h2 {
+    margin-bottom: 12px;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 8px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #f9f9f9;
+    font-weight: 600;
+  }
+  
+  .alertTitle {
+    color: #b91c1c;
+  }
+  
+  .alertList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .alertItem {
+    background-color: #ffe5e5;
+    border-left: 4px solid #dc2626;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+  }
+  
+  .alertItem p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #b91c1c;
+  }
+  
+  .alertItem span {
+    font-size: 0.8rem;
+    color: #666;
+  }
+  
+  .noAlert {
+    color: #888;
+    font-size: 0.9rem;
+  }
+  
+  .alertRow {
+    background-color: #fff3f3;
+    color: #b91c1c;
+    font-weight: 600;
+  }
+  
+  .employeeList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .employeeItem {
+    border-bottom: 1px solid #eee;
+    padding: 6px 0;
+  }
+  
+  .employeeItem strong {
+    display: block;
+    color: #333;
+  }
+  
+  .employeeItem p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
