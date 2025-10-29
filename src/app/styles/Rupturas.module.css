@@ -1,0 +1,79 @@
+.container {
+    background-color: #f4f6f8;
+    min-height: 100vh;
+    padding: 30px;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .header h1 {
+    font-size: 1.8rem;
+    color: #2563eb;
+    margin: 0;
+  }
+  
+  .backButton {
+    text-decoration: none;
+    background-color: #e5e7eb;
+    color: #333;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+  }
+  
+  .backButton:hover {
+    background-color: #d1d5db;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #f9fafb;
+  }
+  
+  .statusPendente {
+    color: #b91c1c;
+    font-weight: 600;
+  }
+  
+  .statusResolvida {
+    color: #16a34a;
+    font-weight: 600;
+  }
+  
+  .fixButton {
+    background-color: #2563eb;
+    color: #fff;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+  }
+  
+  .fixButton:hover {
+    background-color: #1e40af;
+  }
+  

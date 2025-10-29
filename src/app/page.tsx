@@ -6,6 +6,7 @@ import OrderTable from "./components/OrderTable";
 import AlertPanel from "./components/AlertPanel";
 import EmployeeStatus from "./components/EmployeeStatus";
 import styles from "./styles/Dashboard.module.css";
+import Link from "next/link";
 
 export default function Page() {
   const [alerts, setAlerts] = useState<any[]>([]);
@@ -44,6 +45,12 @@ export default function Page() {
   return (
     <main className={styles.container}>
       <Header />
+      <div className={styles.actionBar}>
+        <Link href="/rupturas" className={styles.button}>
+          ⚙️ Ver Rupturas
+        </Link>
+      </div>
+
       <div className={styles.grid}>
         <div className={styles.left}>
           <OrderTable orders={orders} />
